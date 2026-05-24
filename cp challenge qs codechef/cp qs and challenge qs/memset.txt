@@ -1,0 +1,13 @@
+memset function
+#include<iostream>
+#include<cstream> // for memset(). whcih is used to store same value ( only 0 &-1)in a memory ex array etc
+using namespace std;
+int main()
+{
+ int a[10]={0};// only valid for 0
+  // int b[10]={2} //wrong
+ int n;cin>>n;
+// int a[n]={0}; //wrong
+int a[n];
+memset(a,0,sizeof(a)); //correct
+

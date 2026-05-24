@@ -1,0 +1,28 @@
+DP:
+1.Form Largest Integer With Digits That Add up to Target
+2.Size of the smallest subset with maximum Bitwise OR (Unique way to write dp state )
+3. count palindromic subsequences (learn formula)
+4.count distinct palindromic subsequences (learn formula)
+
+TBD: solve a prob of dp+segment tree from codestudio
+
+merge sort:
+count of range sum (rev)
+
+//math:
+number of N digit nos divisible by both x and y :10^N / LCM(X,Y) - 10^(N-1) / LCM(X,Y))
+//no of trailing 0s in N! ->formula
+
+https://practice.geeksforgeeks.org/contest/job-a-thon-exclusive-hiring-challenge-for-amazon-alexa/problems#
+
+
+stack:
+INFIX,POSTfix evaluation tbD
+
+Graph:
+euler tour: https://practice.geeksforgeeks.org/contest/job-a-thon-exclusive-hiring-challenge-for-amazon-alexa/problems/
+
+//hamiltonina path and cycle and euler path printing TBD
+
+//Greedy: revise greedy probs
+

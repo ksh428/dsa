@@ -1,0 +1,23 @@
+class Solution
+{
+    public:
+    int peakElement(int a[], int n)
+    {
+       int l=0,r=n-1;
+       if(n==1) return 0;
+       while(l<=r){
+           int m=(l+r)/2;
+           if(m==0){
+               if(a[m]>a[m+1]) return m;
+           }else if(m==n-1){
+               if(a[m]>a[m-1]) return m;
+           }
+           if(a[m]>=a[m-1] and a[m]>=a[m+1]) return m;
+           if(a[m]<a[m-1]){
+               r=m-1;
+           }else if(a[m]<a[m+1]){
+               l=m+1;
+           }
+       }
+    }
+};

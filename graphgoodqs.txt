@@ -1,0 +1,7 @@
+graph good qs:
+1. cchef:reverse
+2.bertown roads  cforces
+3. CHEFRUN codechef
+4.feasible relation hearth
+5.spanning tree with 1 fixed deg cf
+6.even tree hrank

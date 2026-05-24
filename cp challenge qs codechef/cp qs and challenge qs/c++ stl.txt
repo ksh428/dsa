@@ -1,0 +1,10 @@
+c++ stl:
+1.template<class x>
+  class list{
+   x a[10];
+}
+list<float>l1........makes l1 float dt
+list<student>l2....... student is another class
+
+
+2.vector is used to craete dynamic arrays of char,int and oth types.

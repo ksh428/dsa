@@ -1,0 +1,35 @@
+x=2.9
+print(round (x))  ......3
+print(abs(-2.9)) ......2.9
+
+2. has_hi =True
+   has_gc =True
+   if has_hi and has_gc:
+      print("eligible for loan")
+3.2d list
+  matrix=[ 
+      [1,2,3]
+      [4,5,6]
+      [7,8,9]
+       ]
+4.# comments like this
+5.CLASS
+ class Point:
+       def move(self):print("")
+ point1 =Point()
+point1.move()
+6.CONSTRUCTORS
+class Point:
+      def__init__(self,x,y):
+           self.x=x
+            self.y=y
+def move(self):print("")
+point=Point(10,20)
+7.ex
+   class Person:
+         def__init__(self,,name):
+             self.name=name
+          def talk(self):
+              print("hi i am {self.name}")
+ p=Person("om")
+p.talk()
