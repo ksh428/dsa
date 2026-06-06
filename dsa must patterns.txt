@@ -1,0 +1,214 @@
+Arrays & Hashing
+Pattern 1: Prefix Sum
+
+Examples:
+
+Subarray Sum Equals K
+Continuous Subarray Sum
+Pattern 2: Prefix/Suffix Computation
+
+Examples:
+
+Product of Array Except Self
+Trapping Rain Water (one approach)
+Pattern 3: Frequency Counting
+
+Examples:
+
+Top K Frequent Elements
+Valid Anagram
+Pattern 4: HashMap Lookup
+
+Examples:
+
+Two Sum
+Contains Duplicate
+Sliding Window
+Pattern 5: Fixed Window
+Pattern 6: Variable Window
+Pattern 7: Longest/Shortest Valid Window
+Pattern 8: At Most K
+Pattern 9: Exactly K
+
+Examples:
+
+Longest Repeating Character Replacement
+Subarrays with K Distinct
+Two Pointers
+Pattern 10: Opposite Direction
+Pattern 11: Same Direction
+Pattern 12: Fast Slow Pointer
+
+Examples:
+
+Container With Most Water
+Linked List Cycle
+Binary Search
+Pattern 13: Search Space Binary Search
+
+Most important pattern.
+
+Examples:
+
+Koko Eating Bananas
+Capacity To Ship Packages
+Pattern 14: First/Last Occurrence
+Pattern 15: Lower Bound / Upper Bound
+Pattern 16: Binary Search on Answer
+Intervals
+Pattern 17: Merge Intervals
+Pattern 18: Sweep Line
+Pattern 19: Meeting Rooms
+Pattern 20: Event Sorting
+Stack
+Pattern 21: Monotonic Increasing Stack
+Pattern 22: Monotonic Decreasing Stack
+Pattern 23: Next Greater Element
+Pattern 24: Histogram
+
+Examples:
+
+Largest Rectangle in Histogram
+Daily Temperatures
+Heap
+Pattern 25: Top K
+Pattern 26: K-way Merge
+Pattern 27: Running Median
+Pattern 28: Priority Scheduling
+
+Examples:
+
+Meeting Rooms II
+Merge K Sorted Lists
+Tier 2 (Trees & Graphs)
+
+These dominate SDE-2 interviews.
+
+Trees
+Pattern 29: DFS Traversal
+Pattern 30: Tree DP
+Pattern 31: Path Based DFS
+Pattern 32: LCA
+Pattern 33: Diameter
+Pattern 34: BST Properties
+Pattern 35: Serialize/Deserialize
+Pattern 36: Rerooting Concept
+
+Examples:
+
+Binary Tree Maximum Path Sum
+Diameter of Binary Tree
+Graphs
+Pattern 37: BFS Traversal
+Pattern 38: Multi Source BFS
+
+Examples:
+
+Rotting Oranges
+Walls and Gates
+Pattern 39: DFS Components
+Pattern 40: Topological Sort
+Pattern 41: Cycle Detection
+Pattern 42: Union Find (DSU)
+Pattern 43: Dijkstra
+Pattern 44: Shortest Path Variants
+Pattern 45: State Space BFS
+
+Examples:
+
+Word Ladder
+Cheapest Flights Within K Stops
+Pattern 46: Grid BFS
+Pattern 47: Grid DFS
+Pattern 48: MST (Kruskal)
+Tier 3 (Backtracking & Greedy)
+Backtracking
+Pattern 49: Generate All
+
+Examples:
+
+Subsets
+Permutations
+Pattern 50: Pick / Not Pick
+Pattern 51: Constraint Satisfaction
+
+Examples:
+
+N Queens
+Sudoku Solver
+
+Greedy
+Pattern 52: Sort Then Greedy
+Pattern 53: Interval Greedy
+: 452. Minimum Number of Arrows to Burst Balloons, n meetings in 1 room, job scheduling. merge ovl intervals, non overlapping intervals, min platforms
+Pattern 54: Heap + Greedy
+: 621: Task Scheduler [good] , 767. Reorganize String
+
+Pattern 55: Exchange Argument Type [MISC]
+jump games, gas station (GOOD), container with most water [good]
+
+Pattern: partition related:
+partition string
+
+Examples:
+
+Jump Game
+Task Scheduler
+Tier 4 (Dynamic Programming)
+
+For interviews, focus on patterns, not 500 DP questions.
+
+Pattern 56: 1D DP   -> done
+
+Examples:
+
+House Robber
+Pattern 57: Fibonacci DP
+Pattern 58: Decision DP
+Pattern 59: Knapsack
+Pattern 60: Subsequence DP
+
+Examples:
+
+LIS  ->done
+LCS   ->done
+
+Pattern 61: String DP ->done
+
+Examples:
+
+Edit Distance
+
+Pattern 62: Interval DP
+
+Examples:
+
+Burst Balloons
+Pattern 63: Grid DP
+Pattern 64: State Compression DP
+Pattern 65: Tree DP
+Pattern 66: DP + Bitmask
+
+(Google/Uber occasionally)
+
+Tier 5 (Common SDE-2 Topics)
+Linked Lists
+Pattern 67: Reverse List
+Pattern 68: Reverse K Group
+Pattern 69: Merge Lists
+Pattern 70: Cycle Detection
+Strings
+Pattern 71: Rolling Hash
+Pattern 72: String Parsing
+Pattern 73: Trie
+
+Examples:
+
+Word Search II
+Design Add Search Words
+Design-ish DSA
+Pattern 74: LRU Cache
+
+Must know.
+
+Pattern 75: LFU Cache
