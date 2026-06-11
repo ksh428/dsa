@@ -63,8 +63,8 @@ Pattern 20: Event Sorting
 Stack
 Pattern 21: Monotonic Increasing Stack
 Pattern 22: Monotonic Decreasing Stack
-Pattern 23: Next Greater Element
-Pattern 24: Histogram
+Pattern 23: Next Greater Element ->done
+Pattern 24: Histogram -> done
 
 Examples:
 
@@ -72,10 +72,14 @@ Largest Rectangle in Histogram
 Daily Temperatures
 Heap
 Pattern 25: Top K
-Pattern 26: K-way Merge
-Pattern 27: Running Median
-Pattern 28: Priority Scheduling
+  Top K Frequent Elements,K Closest Points to Origin
 
+Pattern 26: K-way Merge
+ Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums [GOOD]
+Pattern 27: Running Median
+ Find Median from Data Stream,Sliding Window Median
+Pattern 28: Priority Scheduling [Usually covered by other greedy patterns questions]
+ 1834. Single-Threaded CPU [GOOD]
 Examples:
 
 Meeting Rooms II
@@ -139,16 +143,10 @@ Sudoku Solver
 
 Greedy
 Pattern 52: Sort Then Greedy
+: merge overlapping intervals,435. Non-overlapping Intervals , n meetings, min platform req
 Pattern 53: Interval Greedy
-: 452. Minimum Number of Arrows to Burst Balloons, n meetings in 1 room, job scheduling. merge ovl intervals, non overlapping intervals, min platforms
 Pattern 54: Heap + Greedy
-: 621: Task Scheduler [good] , 767. Reorganize String
-
-Pattern 55: Exchange Argument Type [MISC]
-jump games, gas station (GOOD), container with most water [good]
-
-Pattern: partition related:
-partition string
+Pattern 55: Exchange Argument Type
 
 Examples:
 
@@ -207,7 +205,7 @@ Examples:
 Word Search II
 Design Add Search Words
 Design-ish DSA
-Pattern 74: LRU Cache
+Pattern 74: LRU Cache, LFU cache [TBD:REVISION]
 
 Must know.
 
