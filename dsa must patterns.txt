@@ -61,10 +61,15 @@ Pattern 18: Sweep Line
 Pattern 19: Meeting Rooms
 Pattern 20: Event Sorting
 Stack
-Pattern 21: Monotonic Increasing Stack
-Pattern 22: Monotonic Decreasing Stack
+Pattern 21: Monotonic Increasing Stack  -> prev/next smaller
+Pattern 22: Monotonic Decreasing Stack -> prev/next Greater
+Sum of Subarray Minimums [GOOD]
+Maximum width ramp [GOOD]
+
 Pattern 23: Next Greater Element ->done
 Pattern 24: Histogram -> done
+Pattern 25: Greedy + Stack (Monotonic Decision Making)
+Remove K Digits [GOOD], Remove Duplicate Letters [GOOD]
 
 Examples:
 
