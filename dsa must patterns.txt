@@ -68,6 +68,8 @@ Maximum width ramp [GOOD]
 
 Pattern 23: Next Greater Element ->done
 Pattern 24: Histogram -> done
+Maximal Rectangle
+
 Pattern 25: Greedy + Stack (Monotonic Decision Making)
 Remove K Digits [GOOD], Remove Duplicate Letters [GOOD]
 
@@ -81,6 +83,9 @@ Pattern 25: Top K
 
 Pattern 26: K-way Merge
  Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums [GOOD]
+
+ Basic Calculator [GOOD]
+
 Pattern 27: Running Median
  Find Median from Data Stream,Sliding Window Median
 Pattern 28: Priority Scheduling [Usually covered by other greedy patterns questions]
@@ -203,12 +208,25 @@ Pattern 70: Cycle Detection
 Strings
 Pattern 71: Rolling Hash
 Pattern 72: String Parsing
+
 Pattern 73: Trie
-
 Examples:
-
 Word Search II
 Design Add Search Words
+Number of distinct substrings in a string
+
+XOR based:
+Maximum XOR of two numbers in an array [GOOD] , Maximum Xor with an element from an array
+
+Word Search Trie: trie + bfs/DFS
+Word Search II
+Design Add and Search Words Data Structure
+Map Sum Pairs
+
+FILE SYSTEM BASED:
+Design In-Memory File System,Design Search Autocomplete System
+
+
 Design-ish DSA
 Pattern 74: LRU Cache, LFU cache [TBD:REVISION]
 
