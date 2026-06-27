@@ -43,6 +43,8 @@ Examples:
 
 Container With Most Water
 Linked List Cycle
+
+
 Binary Search
 Pattern 13: Search Space Binary Search
 
@@ -54,12 +56,16 @@ Koko Eating Bananas
 Capacity To Ship Packages
 Pattern 14: First/Last Occurrence
 Pattern 15: Lower Bound / Upper Bound
+Search a 2D Matrix [okay],Search a 2D Matrix II [unique,good]
 Pattern 16: Binary Search on Answer
+
+
 Intervals
 Pattern 17: Merge Intervals
 Pattern 18: Sweep Line
 Pattern 19: Meeting Rooms
 Pattern 20: Event Sorting
+
 Stack
 Pattern 21: Monotonic Increasing Stack  -> prev/next smaller
 Pattern 22: Monotonic Decreasing Stack -> prev/next Greater
@@ -77,17 +83,21 @@ Examples:
 
 Largest Rectangle in Histogram
 Daily Temperatures
-Heap
-Pattern 25: Top K
-  Top K Frequent Elements,K Closest Points to Origin
+Basic Calculator [GOOD]
 
-Pattern 26: K-way Merge
+ Heap
+Pattern 25: Top K [uses max heap usually]
+Generic rule: 
+Keep K largest elements
+Use min-heap of size K and vice versa
+
+Top K Frequent Elements,K Closest Points to Origin
+
+Pattern 26: K-way Merge [usually min heap]
  Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums [GOOD]
 
- Basic Calculator [GOOD]
-
 Pattern 27: Running Median
- Find Median from Data Stream,Sliding Window Median
+ Find Median from Data Stream [GOOD],Sliding Window Median
 Pattern 28: Priority Scheduling [Usually covered by other greedy patterns questions]
  1834. Single-Threaded CPU [GOOD]
 Examples:
