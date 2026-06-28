@@ -46,19 +46,37 @@ Linked List Cycle
 
 
 Binary Search
+
 Pattern 13: Search Space Binary Search
 
-Most important pattern.
-
-Examples:
-
 Koko Eating Bananas
-Capacity To Ship Packages
+Capacity To Ship Packages Within D Days
+
 Pattern 14: First/Last Occurrence
+
+Find First and Last Position of Element in Sorted Array
+Search Insert Position
+
 Pattern 15: Lower Bound / Upper Bound
+
+Find Smallest Letter Greater Than Target
 Search a 2D Matrix [okay],Search a 2D Matrix II [unique,good]
+
 Pattern 16: Binary Search on Answer
 
+Aggressive cows, Allocate pages
+Matrix Median [GOOD]
+Kth Smallest Product of Two Sorted Arrays [GOOD]
+
+Pattern 17: Binary Search on Rotated Arrays
+
+Search in Rotated Sorted Array
+Find Minimum in Rotated Sorted Array
+
+Pattern 18: Partition Binary Search [GOOD]
+
+Median of Two Sorted Arrays [GOOD]
+Kth Element of Two Sorted Arrays [GOOD]
 
 Intervals
 Pattern 17: Merge Intervals
@@ -122,7 +140,7 @@ Examples:
 
 Binary Tree Maximum Path Sum
 Diameter of Binary Tree
-Graphs
+Graphs  [BFS/DFS TC: O(V+E)]
 Pattern 37: BFS Traversal
 Pattern 38: Multi Source BFS
 
@@ -132,9 +150,12 @@ Rotting Oranges
 Walls and Gates
 Pattern 39: DFS Components
 Pattern 40: Topological Sort
+Kahns algo [O(V+E)]
+
 Pattern 41: Cycle Detection
 Pattern 42: Union Find (DSU)
-Pattern 43: Dijkstra
+Pattern 43: Dijkstra [O(ELOGV)]
+bellman ford [O(VE)]
 Pattern 44: Shortest Path Variants
 Pattern 45: State Space BFS
 
@@ -145,7 +166,10 @@ Cheapest Flights Within K Stops
 Pattern 46: Grid BFS
 Pattern 47: Grid DFS
 Pattern 48: MST (Kruskal)
+prims 
 Tier 3 (Backtracking & Greedy)
+
+
 Backtracking
 Pattern 49: Generate All
 
