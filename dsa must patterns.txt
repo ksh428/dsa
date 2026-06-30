@@ -33,6 +33,8 @@ Pattern 7: Longest/Shortest Valid Window
 Pattern 8: At Most K
 Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
 
+
+
 Examples:
 
 Longest Repeating Character Replacement
@@ -42,11 +44,13 @@ Two Pointers
 Pattern 10: Opposite Direction
 Pattern 11: Same Direction
 Pattern 12: Fast Slow Pointer
-
 Examples:
 
 Container With Most Water
 Linked List Cycle
+
+Pattern 13: Sliding Window + Monotonic Deque
+Sliding window maximum [GOOD] -> deque soln ->O(N), pQ-> ONlogN
 
 
 Binary Search
@@ -173,7 +177,7 @@ Cheapest Flights Within K Stops
 Pattern 46: Grid BFS
 Pattern 47: Grid DFS
 Pattern 48: MST (Kruskal)
-prims 
+prims TC: O(ELOGE)
 Tier 3 (Backtracking & Greedy)
 
 
