@@ -3,7 +3,8 @@ Pattern 1: Prefix Sum
 
 Examples:
 
-Subarray Sum Equals K
+Subarray Sum Equals K,
+Count Number of Nice Subarrays [GOOD]
 Continuous Subarray Sum
 Pattern 2: Prefix/Suffix Computation
 
@@ -23,17 +24,20 @@ Examples:
 
 Two Sum
 Contains Duplicate
+
+
 Sliding Window
 Pattern 5: Fixed Window
 Pattern 6: Variable Window
 Pattern 7: Longest/Shortest Valid Window
 Pattern 8: At Most K
-Pattern 9: Exactly K
+Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
 
 Examples:
 
 Longest Repeating Character Replacement
-Subarrays with K Distinct
+Subarrays with K Distinct [GOOD]
+
 Two Pointers
 Pattern 10: Opposite Direction
 Pattern 11: Same Direction
@@ -103,7 +107,7 @@ Largest Rectangle in Histogram
 Daily Temperatures
 Basic Calculator [GOOD]
 
- Heap
+Heap
 Pattern 25: Top K [uses max heap usually]
 Generic rule: 
 Keep K largest elements
@@ -115,7 +119,10 @@ Pattern 26: K-way Merge [usually min heap]
  Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums [GOOD]
 
 Pattern 27: Running Median
- Find Median from Data Stream [GOOD],Sliding Window Median
+Find Median from Data Stream [GOOD],Sliding Window Median
+
+IPO
+
 Pattern 28: Priority Scheduling [Usually covered by other greedy patterns questions]
  1834. Single-Threaded CPU [GOOD]
 Examples:
