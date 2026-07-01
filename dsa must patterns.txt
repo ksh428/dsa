@@ -28,17 +28,32 @@ Contains Duplicate
 
 Sliding Window
 Pattern 5: Fixed Window
+
+Maximum Average Subarray I
+Maximum Number of Vowels in a Substring of Given Length
+
 Pattern 6: Variable Window
+
+Minimum Size Subarray Sum
+Fruit Into Baskets
+
 Pattern 7: Longest/Shortest Valid Window
-Pattern 8: At Most K
-Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
-
-
-
-Examples:
 
 Longest Repeating Character Replacement
+Minimum Window Substring
+
+Pattern 8: At Most K
+
+Longest Substring with At Most Two Distinct Characters
+Max Consecutive Ones III
+
+Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
 Subarrays with K Distinct [GOOD]
+Count Number of Nice Subarrays [GOOD]
+
+Pattern 10: Sliding Window + Monotonic Deque [GOOD] HERE PQ SOLN GIVES NLOGN
+Sliding Window Maximum [GOOD]
+Shortest Subarray with Sum at Least K (advanced) [GOOD]
 
 Two Pointers
 Pattern 10: Opposite Direction
@@ -48,10 +63,6 @@ Examples:
 
 Container With Most Water
 Linked List Cycle
-
-Pattern 13: Sliding Window + Monotonic Deque
-Sliding window maximum [GOOD] -> deque soln ->O(N), pQ-> ONlogN
-
 
 Binary Search
 
@@ -164,7 +175,10 @@ Pattern 40: Topological Sort
 Kahns algo [O(V+E)]
 
 Pattern 41: Cycle Detection
-Pattern 42: Union Find (DSU)
+Pattern 42: Union Find (DSU) 
+findpar,union_rank,union_size TC: O(1)
+
+
 Pattern 43: Dijkstra [O(ELOGV)]
 bellman ford [O(VE)]
 Pattern 44: Shortest Path Variants
@@ -176,7 +190,7 @@ Word Ladder
 Cheapest Flights Within K Stops
 Pattern 46: Grid BFS
 Pattern 47: Grid DFS
-Pattern 48: MST (Kruskal)
+Pattern 48: MST (Kruskal) TC: O(ELOGE)
 prims TC: O(ELOGE)
 Tier 3 (Backtracking & Greedy)
 
