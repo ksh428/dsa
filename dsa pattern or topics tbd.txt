@@ -1,0 +1,109 @@
+The following the important and lesser important topics which are TBD
+
+Important:
+1. B trees and bst
+2. Linked List
+3. Bit manipulation
+4. Maths
+5. String manipulation
+
+Advanced but worth giving some time
+1. Segment/ fenwick trees (1 day)
+2. DP with Bitmask (1 day)
+3. Dp on trees (2 days)
+4. Meet in the middle (2-3 hrs)
+5. KMP (2-3 hrs)
+
+
+1. Binary Trees & BST (~18–20 problems)
+Pattern	LeetCode Problems
+DFS Traversal	104. Maximum Depth of Binary Tree, 1448. Count Good Nodes
+BFS / Level Order	102. Binary Tree Level Order Traversal, 199. Binary Tree Right Side View
+Path Problems	112. Path Sum, 437. Path Sum III
+Tree Construction	105. Construct Binary Tree from Preorder & Inorder, 889. Construct Binary Tree from Preorder & Postorder
+Diameter / Global Answer	543. Diameter of Binary Tree, 124. Binary Tree Maximum Path Sum
+Lowest Common Ancestor	236. LCA of Binary Tree, 235. LCA of BST
+Tree Serialization	297. Serialize and Deserialize Binary Tree
+Validate / Recover BST	98. Validate BST, 99. Recover BST
+BST Iterator / Inorder	173. BST Iterator
+Balanced Tree	110. Balanced Binary Tree
+Tree Views	314. Binary Tree Vertical Order Traversal (or 987. Vertical Traversal)
+Tree DP	337. House Robber III
+
+Google favorites: 124, 297, 236, 105, 987.
+
+2. Linked List (~10–12 problems)
+Pattern	LeetCode Problems
+Reverse	206. Reverse Linked List, 92. Reverse Linked List II
+Fast & Slow Pointer	141. Linked List Cycle, 142. Linked List Cycle II
+Merge Lists	21. Merge Two Sorted Lists, 23. Merge K Sorted Lists
+Reverse in Groups	25. Reverse Nodes in k-Group
+Random Pointer	138. Copy List with Random Pointer
+Intersection	160. Intersection of Two Linked Lists
+LRU Design	146. LRU Cache
+Sorting	148. Sort List
+
+Google favorites: 146, 138, 25.
+
+3. Bit Manipulation (~12–14 problems)
+Pattern	LeetCode Problems
+Basic XOR	136. Single Number, 260. Single Number III
+Missing Number	268. Missing Number
+Counting Bits	338. Counting Bits
+Bitmask Enumeration	78. Subsets, 90. Subsets II
+Trie + XOR	421. Maximum XOR of Two Numbers
+Prefix XOR	1310. XOR Queries of a Subarray
+Bitmask DP Intro	847. Shortest Path Visiting All Nodes
+Bit Tricks	190. Reverse Bits
+
+Google favorites: 421, 847.
+
+4. Maths (~8–10 problems)
+Pattern	LeetCode Problems
+GCD / LCM	1071. Greatest Common Divisor of Strings, 1979. Find GCD of Array
+Prime / Sieve	204. Count Primes
+Fast Power	50. Pow(x, n)
+Geometry	149. Max Points on a Line
+Simulation	43. Multiply Strings
+Number Theory	166. Fraction to Recurring Decimal
+Overflow	7. Reverse Integer
+
+Know the concepts even if you don't solve many:
+
+Euclidean Algorithm
+Modular arithmetic
+Fast exponentiation
+Prime factorization
+Sieve
+
+
+5. String Manipulation (~18 problems)
+Pattern	LeetCode Problems
+Parsing	224. Basic Calculator, 65. Valid Number
+HashMap Strings	49. Group Anagrams, 242. Valid Anagram
+Palindrome	5. Longest Palindromic Substring, 647. Palindromic Substrings
+KMP	28. Find the Index of the First Occurrence in a String, 459. Repeated Substring Pattern
+Sliding Window	76. Minimum Window Substring, 3. Longest Substring Without Repeating Characters
+Encoding	271. Encode and Decode Strings
+Text Processing	68. Text Justification
+String DFS	79. Word Search
+Parentheses	32. Longest Valid Parentheses
+Rolling Hash (optional)	1044. Longest Duplicate Substring (concept only)
+
+Google favorites: 224, 68, 76, 271.
+
+
+ADVANCED:
+
+| Topic                  | Pattern                    | Problems   |
+| ---------------------- | -------------------------- | ---------- |
+| **Segment/Fenwick**    | Range Query + Point Update | 307  308      |
+|                        | Lazy Propagation (concept) | 699        |
+| **Bitmask DP**         | `dp[mask][last]`           | 847, 1434  |
+|                        | Subset Enumeration         | 1986       |
+| **Tree DP**            | Pick/Not Pick              | 337, 1372  |
+|                        | Bottom-Up Return Values    | 543, 124   |
+|                        | Rerooting (concept)        | 834        |
+| **Meet in the Middle** | Split into two halves      | 1755, 2035 |
+| **KMP**                | LPS / Prefix Function      | 28, 459 ,214   |
+

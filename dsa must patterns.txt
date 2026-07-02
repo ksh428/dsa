@@ -144,6 +144,7 @@ Examples:
 
 Meeting Rooms II
 Merge K Sorted Lists
+
 Tier 2 (Trees & Graphs)
 
 These dominate SDE-2 interviews.
@@ -162,6 +163,7 @@ Examples:
 
 Binary Tree Maximum Path Sum
 Diameter of Binary Tree
+
 Graphs  [BFS/DFS TC: O(V+E)]
 Pattern 37: BFS Traversal
 Pattern 38: Multi Source BFS
