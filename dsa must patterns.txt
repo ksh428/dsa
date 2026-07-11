@@ -96,6 +96,7 @@ Pattern 18: Partition Binary Search [GOOD]
 
 Median of Two Sorted Arrays [GOOD]
 Kth Element of Two Sorted Arrays [GOOD]
+Kth Smallest Product of Two Sorted Arrays [GOOD] -> NOT PARTITION BUT A BIT DIFF [REV again]
 
 Intervals
 Pattern 17: Merge Intervals
@@ -107,7 +108,8 @@ Stack
 Pattern 21: Monotonic Increasing Stack  -> prev/next smaller
 Pattern 22: Monotonic Decreasing Stack -> prev/next Greater
 Sum of Subarray Minimums [GOOD]
-Maximum width ramp [GOOD]
+Maximum width ramp [GOOD] -> can be done using normal sorting onlogn [REV AGAIN]{unique because we first traverse the array and store in stack, then compute
+ans, rather than doing itin the same iteration}
 
 Pattern 23: Next Greater Element ->done
 Pattern 24: Histogram -> done
@@ -123,6 +125,7 @@ Daily Temperatures
 Basic Calculator [GOOD]
 
 Heap
+
 Pattern 25: Top K [uses max heap usually]
 Generic rule: 
 Keep K largest elements
@@ -131,7 +134,7 @@ Use min-heap of size K and vice versa
 Top K Frequent Elements,K Closest Points to Origin
 
 Pattern 26: K-way Merge [usually min heap]
- Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums [GOOD]
+ Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums
 
 Pattern 27: Running Median
 Find Median from Data Stream [GOOD],Sliding Window Median
@@ -150,7 +153,8 @@ Tier 2 (Trees & Graphs)
 These dominate SDE-2 interviews.
 
 Trees
-Pattern 29: DFS Traversal
+Pattern 29: DFS Traversal 
+437. Path Sum III [GOOD] -> prefix computation
 Pattern 30: Tree DP
 Pattern 31: Path Based DFS
 Pattern 32: LCA
@@ -169,12 +173,17 @@ Pattern 37: BFS Traversal
 Pattern 38: Multi Source BFS
 
 Examples:
-
 Rotting Oranges
 Walls and Gates
+
+BFS/DFS + bitmask  [GOOD]
+Shortest Path to Get All Keys [GOOD]
+The Maze II [GOOD]
+
 Pattern 39: DFS Components
 Pattern 40: Topological Sort
 Kahns algo [O(V+E)]
+Largest Color Value in a Directed Graph [GOOD] ->DAG DP
 
 Pattern 41: Cycle Detection
 Pattern 42: Union Find (DSU) 
@@ -187,9 +196,9 @@ Pattern 44: Shortest Path Variants
 Pattern 45: State Space BFS
 
 Examples:
-
 Word Ladder
 Cheapest Flights Within K Stops
+Network Recovery Pathways [GOOD]
 Pattern 46: Grid BFS
 Pattern 47: Grid DFS
 Pattern 48: MST (Kruskal) TC: O(ELOGE)
@@ -213,16 +222,22 @@ N Queens
 Sudoku Solver
 
 Greedy
+
 Pattern 52: Sort Then Greedy
 : merge overlapping intervals,435. Non-overlapping Intervals , n meetings, min platform req
+
 Pattern 53: Interval Greedy
+
 Pattern 54: Heap + Greedy
+
+
 Pattern 55: Exchange Argument Type
+Job sequencing [GOOD DSU Based optimization]
 
 Examples:
-
 Jump Game
-Task Scheduler
+Task Scheduler [GOOD] [heap+greedy]
+
 Tier 4 (Dynamic Programming)
 
 For interviews, focus on patterns, not 500 DP questions.
@@ -256,7 +271,42 @@ Burst Balloons
 Pattern 63: Grid DP
 Pattern 64: State Compression DP
 Pattern 65: Tree DP
+
+Tree matching cses [GOOD]
+tree diameter cses [GOOD]
+Binary Tree Cameras [GOOD]
+Binary Tree Maximum Path Sum [GOOD]
+
+[rerooting]
+Tree distances 1 [GOOD]
+Sum of Distances in Tree [GOOD]
+
+
+
+
 Pattern 66: DP + Bitmask
+
+DP optimization[GOOD]:
+
+random: Remove Boxes [GOOD] : extra dp state
+Strange Printer [GOOD]
+
+binary search:
+Super egg drop [GOOD]
+
+simultaneous walk dp and state reduction:
+cherry pickup
+cherry pickup ii
+
+preprocessing:
+Allocate Mailboxes
+
+monotonic deque/heap:
+Jump Game VI
+
+[Can cause infinite recursion even with dp if recurrence is wrong]
+Freedom Trail
+
 
 (Google/Uber occasionally)
 
@@ -270,7 +320,7 @@ Strings
 Pattern 71: Rolling Hash
 Pattern 72: String Parsing
 
-Pattern 73: Trie
+Pattern 73: Trie ->DONE
 Examples:
 Word Search II
 Design Add Search Words
@@ -285,7 +335,7 @@ Design Add and Search Words Data Structure
 Map Sum Pairs
 
 FILE SYSTEM BASED:
-Design In-Memory File System,Design Search Autocomplete System
+Design In-Memory File System,Design Search Autocomplete System [REV TBD]
 
 
 Design-ish DSA
