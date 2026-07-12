@@ -26,7 +26,7 @@ Two Sum
 Contains Duplicate
 
 
-Sliding Window
+Sliding Window [DONE]
 Pattern 5: Fixed Window
 
 Maximum Average Subarray I
@@ -48,10 +48,12 @@ Longest Substring with At Most Two Distinct Characters
 Max Consecutive Ones III
 
 Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
-Subarrays with K Distinct [GOOD]
+Subarrays with K Different Integers  [GOOD]
+
 Count Number of Nice Subarrays [GOOD]
 
 Pattern 10: Sliding Window + Monotonic Deque [GOOD] HERE PQ SOLN GIVES NLOGN
+
 Sliding Window Maximum [GOOD]
 Shortest Subarray with Sum at Least K (advanced) [GOOD]
 
@@ -62,7 +64,7 @@ Pattern 12: Fast Slow Pointer
 Examples:
 
 Container With Most Water
-Linked List Cycle
+Linked List Cycle [TBD]
 
 Binary Search
 
@@ -85,7 +87,6 @@ Pattern 16: Binary Search on Answer
 
 Aggressive cows, Allocate pages
 Matrix Median [GOOD]
-Kth Smallest Product of Two Sorted Arrays [GOOD]
 
 Pattern 17: Binary Search on Rotated Arrays
 
@@ -96,6 +97,7 @@ Pattern 18: Partition Binary Search [GOOD]
 
 Median of Two Sorted Arrays [GOOD]
 Kth Element of Two Sorted Arrays [GOOD]
+
 Kth Smallest Product of Two Sorted Arrays [GOOD] -> NOT PARTITION BUT A BIT DIFF [REV again]
 
 Intervals
@@ -183,7 +185,11 @@ The Maze II [GOOD]
 Pattern 39: DFS Components
 Pattern 40: Topological Sort
 Kahns algo [O(V+E)]
-Largest Color Value in a Directed Graph [GOOD] ->DAG DP
+
+DAG DP
+
+Largest Color Value in a Directed Graph [GOOD]
+parallel courses 
 
 Pattern 41: Cycle Detection
 Pattern 42: Union Find (DSU) 
@@ -286,6 +292,13 @@ Sum of Distances in Tree [GOOD]
 
 Pattern 66: DP + Bitmask
 
+travelling salesman 
+kartik arora series
+Find the Shortest Superstring [GOOD] [soln gives tle, but understand how to maintain the state] [dp with bitmask on string]
+Shortest Path Visiting All Nodes [GOOD]-> [Not dp,but bfs w bitmask]
+Number of Ways to Wear Different Hats to Each Other
+Minimum XOR Sum of Two Arrays
+
 DP optimization[GOOD]:
 
 random: Remove Boxes [GOOD] : extra dp state
@@ -343,4 +356,10 @@ Pattern 74: LRU Cache, LFU cache [TBD:REVISION]
 
 Must know.
 
-Pattern 75: LFU Cache
+Pattern 75: LFU Cache [TBD]
+
+Pattern 76: MEET IN THE Middle
+
+MIM + Binary search 
+Partition Array Into Two Arrays to Minimize Sum Difference [GOOD] [rev again]
+Closest Subsequence Sum [GOOD] [rev again]
