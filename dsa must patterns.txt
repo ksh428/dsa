@@ -185,6 +185,7 @@ The Maze II [GOOD]
 Pattern 39: DFS Components
 Pattern 40: Topological Sort
 Kahns algo [O(V+E)]
+Apply Substitutions [unique -> toposort on strings]
 
 DAG DP
 
@@ -298,6 +299,8 @@ Find the Shortest Superstring [GOOD] [soln gives tle, but understand how to main
 Shortest Path Visiting All Nodes [GOOD]-> [Not dp,but bfs w bitmask]
 Number of Ways to Wear Different Hats to Each Other
 Minimum XOR Sum of Two Arrays
+Parallel Courses II [V GOOD][unique dp state -> not int,mask]
+Maximum AND Sum of Array [string mask]
 
 DP optimization[GOOD]:
 
@@ -326,9 +329,24 @@ Freedom Trail
 Tier 5 (Common SDE-2 Topics)
 Linked Lists
 Pattern 67: Reverse List
+Reverse Linked List II [GOOD-> rev again]
+
 Pattern 68: Reverse K Group
+Reverse Nodes in k-Group [rev again]
+
 Pattern 69: Merge Lists
-Pattern 70: Cycle Detection
+merge 2 sorted lists,Merge k Sorted Lists
+sort list (merge sort)
+
+Pattern 70: Cycle Detection (slow fast pointer)
+Linked list cycle 1 and 2
+Middle of Linked List
+
+Copy List with Random Pointer [GOOD] (understand order of copying pointers)
+
+Pattern
+Reorder List [approach rev again]
+
 Strings
 Pattern 71: Rolling Hash
 Pattern 72: String Parsing
@@ -363,3 +381,9 @@ Pattern 76: MEET IN THE Middle
 MIM + Binary search 
 Partition Array Into Two Arrays to Minimize Sum Difference [GOOD] [rev again]
 Closest Subsequence Sum [GOOD] [rev again]
+
+KMP
+implement and understand
+shortest palidrome [GOOD]
+Repeated Substring Pattern [GOOD]
+
