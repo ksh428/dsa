@@ -1,6 +1,25 @@
 Arrays & Hashing
 Pattern 1: Prefix Sum
 
+Pattern: kadanes
+Max subarray Sum
+Max circular subarray sum [GOOD-> intution of min subarray sum] [although it can be solved using normal pref suf as well]
+Maximum Absolute Sum of Any Subarray
+Maximum Sum Submatrix [GOOD -> 2d kadanes]
+Max Sum of Rectangle No Larger Than K [GOOD -> not kadanes, but good use of prefix sum + binary search, also understand why kadanes fails]
+Number of Submatrices That Sum to Target [GOOD] -> (good app of count subarrys with sum k in matrix)
+
+PATTERN OF THE ABOVE
+| Problem                                      | 1D Solver                    |
+| -------------------------------------------- | ---------------------------- |
+| Maximum Sum Rectangle                        | Kadane                       |
+| Maximum Sum Rectangle ≤ K (LC 363)           | Prefix Sum + `set`           |
+| Number of Submatrices Sum = Target (LC 1074) | Prefix Sum + `unordered_map` |
+
+2D prefix/suffix sum
+Count Palindromic Subsequences [GOOD] -> understand why this cannot be done using dp
+Unique Length-3 Palindromic Subsequences
+
 Examples:
 
 Subarray Sum Equals K,
@@ -50,7 +69,9 @@ Max Consecutive Ones III
 Pattern 9: Exactly K  [GOOD] -> <=k - <=k-1
 Subarrays with K Different Integers  [GOOD]
 
-Count Number of Nice Subarrays [GOOD]
+Count Number of Nice Subarrays [GOOD] -> can be reduced to subarray sum=k
+
+Substring with Concatenation of All Words [GOOD-> SLIDING WINDOW WITH OFFSETS]
 
 Pattern 10: Sliding Window + Monotonic Deque [GOOD] HERE PQ SOLN GIVES NLOGN
 
@@ -64,7 +85,7 @@ Pattern 12: Fast Slow Pointer
 Examples:
 
 Container With Most Water
-Linked List Cycle [TBD]
+Linked List Cycle 
 
 Binary Search
 
@@ -125,6 +146,7 @@ Examples:
 Largest Rectangle in Histogram
 Daily Temperatures
 Basic Calculator [GOOD]
+Parsing A Boolean Expression [simple just rev again]
 
 Heap
 
@@ -139,7 +161,8 @@ Pattern 26: K-way Merge [usually min heap]
  Merge k Sorted Lists/Arrays, Find K Pairs with Smallest Sums
 
 Pattern 27: Running Median
-Find Median from Data Stream [GOOD],Sliding Window Median
+Find Median from Data Stream [GOOD],
+Sliding Window Median [GOOD -> 2 heap + lazy deletion + map]
 
 IPO
 
@@ -148,7 +171,10 @@ Pattern 28: Priority Scheduling [Usually covered by other greedy patterns questi
 Examples:
 
 Meeting Rooms II
+Meeting Rooms III
 Merge K Sorted Lists
+
+Trapping Rain Water II [GOOD-> Unique][revise again] (bfs+pq)
 
 Tier 2 (Trees & Graphs)
 
@@ -157,8 +183,12 @@ These dominate SDE-2 interviews.
 Trees
 Pattern 29: DFS Traversal 
 437. Path Sum III [GOOD] -> prefix computation
+ Maximum Width of Binary Tree[GOOD]
+
 Pattern 30: Tree DP
 Pattern 31: Path Based DFS
+Morris Traversal [GOOD]: o(n) time and o(1) Space
+
 Pattern 32: LCA
 Pattern 33: Diameter
 Pattern 34: BST Properties
@@ -171,6 +201,11 @@ Binary Tree Maximum Path Sum
 Diameter of Binary Tree
 
 Graphs  [BFS/DFS TC: O(V+E)]
+ 0-1 BFS : Graph contains 0 and 1 wt only, used to find ssp in O(E+V) : USES DEQUE
+
+ algo:
+ use deque, if wt is 0, push front else back, normal bfs, pop from front
+
 Pattern 37: BFS Traversal
 Pattern 38: Multi Source BFS
 
@@ -178,8 +213,9 @@ Examples:
 Rotting Oranges
 Walls and Gates
 
-BFS/DFS + bitmask  [GOOD]
+BFS/DFS + bitmask  [GOOD] [usually the vis array also needs a mask dimension]
 Shortest Path to Get All Keys [GOOD]
+
 The Maze II [GOOD]
 
 Pattern 39: DFS Components
@@ -196,6 +232,10 @@ Pattern 41: Cycle Detection
 Pattern 42: Union Find (DSU) 
 findpar,union_rank,union_size TC: O(1)
 
+DFS + Memo [DP]
+Longest Increasing Path in a Matrix
+Number of Increasing Paths in a Grid
+
 
 Pattern 43: Dijkstra [O(ELOGV)]
 bellman ford [O(VE)]
@@ -205,11 +245,16 @@ Pattern 45: State Space BFS
 Examples:
 Word Ladder
 Cheapest Flights Within K Stops
+Minimum Cost to Reach Destination in Time [GOOD] [good to understand multi param dijkstra]
 Network Recovery Pathways [GOOD]
 Pattern 46: Grid BFS
 Pattern 47: Grid DFS
 Pattern 48: MST (Kruskal) TC: O(ELOGE)
 prims TC: O(ELOGE)
+
+Reconstruct Itinerary [GOOD ,Unique->uses STACK](understand why the naivwe multiset approach will fail)
+
+
 Tier 3 (Backtracking & Greedy)
 
 
@@ -225,7 +270,7 @@ Pattern 51: Constraint Satisfaction
 
 Examples:
 
-N Queens
+N Queens (check the bitmask based optimizartion)
 Sudoku Solver
 
 Greedy
@@ -264,6 +309,12 @@ Examples:
 LIS  ->done
 LCS   ->done
 
+print lcs [GOOD] (https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1)
+
+LIS pattern:
+max overlapping bridges [GFG -> GOOD](important as there are 2 params, sort on 1 and lis on the other)
+russian envelope [GOOD] (see how the n^2 approach can be reduced to nlogn, and how sorting helps it)
+
 Pattern 61: String DP ->done
 
 Examples:
@@ -277,6 +328,7 @@ Examples:
 Burst Balloons
 Pattern 63: Grid DP
 Pattern 64: State Compression DP
+
 Pattern 65: Tree DP
 
 Tree matching cses [GOOD]
@@ -287,9 +339,6 @@ Binary Tree Maximum Path Sum [GOOD]
 [rerooting]
 Tree distances 1 [GOOD]
 Sum of Distances in Tree [GOOD]
-
-
-
 
 Pattern 66: DP + Bitmask
 
@@ -307,6 +356,9 @@ DP optimization[GOOD]:
 random: Remove Boxes [GOOD] : extra dp state
 Strange Printer [GOOD]
 
+Number of ZigZag Arrays I [difficult GOOD] (Teaches a lot of things: normal recursion-> range optimization -> bottom up (required for prefix/suffx sum
+-> prefix/suffix sum on dp array itself -> reducing the dp state as ith state is only dependent on i-1th state using 2 vectors))
+
 binary search:
 Super egg drop [GOOD]
 
@@ -323,6 +375,10 @@ Jump Game VI
 [Can cause infinite recursion even with dp if recurrence is wrong]
 Freedom Trail
 
+generic dp:
+Find the Number of Subsequences With Equal GCD [important to understand the dp state]
+
+Palindrome Partitioning II (reducing state)
 
 (Google/Uber occasionally)
 
@@ -337,6 +393,11 @@ Reverse Nodes in k-Group [rev again]
 Pattern 69: Merge Lists
 merge 2 sorted lists,Merge k Sorted Lists
 sort list (merge sort)
+
+[1 obs is: try both asc / desc order sort for these problems once: usually for counting totoal asc should work. but element wise count desc may also work]
+Count of Smaller Numbers After Self [GOOD]  -> see why we need to sort in desc order
+Reverse Pairs
+Count of Range Sum [GOOD-> very difficult] :(concept of merge sort on prefix sums)
 
 Pattern 70: Cycle Detection (slow fast pointer)
 Linked list cycle 1 and 2
@@ -358,7 +419,7 @@ Design Add Search Words
 Number of distinct substrings in a string
 
 XOR based:
-Maximum XOR of two numbers in an array [GOOD] , Maximum Xor with an element from an array
+Maximum XOR of two numbers in an array [GOOD] , Maximum Xor with an element from an array (offline queries)
 
 Word Search Trie: trie + bfs/DFS
 Word Search II
@@ -387,3 +448,14 @@ implement and understand
 shortest palidrome [GOOD]
 Repeated Substring Pattern [GOOD]
 
+
+NOTES TO MEMORIZE:
+
+2 arrays + sorted + medain/xth element -> binary search
+merge  -> heap
+running median-> heap
+
+DP on tress has the following patterns mostly:
+void return type, precompute for children and then solve
+reroot dp: can be solved using type 1 Pattern
+binary tree/n ary tree where you memoize the state using map, and return int as func return type

@@ -78,3 +78,54 @@ int32_t main() {
 
       return 0;
 }
+
+// other kmp
+
+class Solution {
+  public:
+    vector<int> search(string &p, string &t) {
+        // code here
+        vector<int>ans;
+        int n=t.size();
+        int m=p.size();
+        vector<int>lps(m,0);
+        int l=0;
+        int i=1;
+        while(i<m)
+        {
+            if(p[i]==p[l])
+            {
+                l++;
+                lps[i]=l;
+                i++;
+            }else{
+                if(l>0)
+                {
+                    l=lps[l-1];
+                }else {
+                    lps[i]=0;
+                    i++;
+                }
+            }
+        }
+        i=0;
+        int j=0;
+        while(i<n)
+        {
+            if(t[i]==p[j])
+            {
+                i++;
+                j++;
+            }
+            if(j==m)
+            {
+                ans.push_back(i-j);
+                j=lps[j-1];
+            }else if(t[i]!=p[j]){
+                if(j>0) j=lps[j-1];
+                else i++;
+            }
+        }
+        return ans;
+    }
+};
